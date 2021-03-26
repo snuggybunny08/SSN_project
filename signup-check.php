@@ -73,7 +73,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 					header("Location: signup.php?error='$msg'");
 				}
 				else{
-           			// $msg =  "Failed to connect to MySQL: " . ;
+           			
 					header("Location: signup.php?error='$sql2'");
 				}
 	
